@@ -1,2 +1,2 @@
 # nyaHaxorCla
-Automagically adds salt to our banner
+Automagically adds salt to our wonderful banner
