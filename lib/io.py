@@ -25,9 +25,9 @@ class IO():
 
     def getArguments(self):
         parser = ArgumentParser(description="A simple tool for creating"
-                                "nya ascii art with embeded salt ")
+                                " nya ascii art with embeded salt ")
         parser.add_argument('-s', '--salt', type=str, help="Salt message to"
-                            "embed")
+                            " embed")
 
         args = parser.parse_args()
         return args
