@@ -24,7 +24,6 @@ class Core():
 
     def addSalt(self, banner, salt):
         bufferLength = banner.count("F")
-        print(bufferLength)
 
         if len(salt) > bufferLength + 2: 
             print("Salt string to long!!!")
